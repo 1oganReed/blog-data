@@ -1,5 +1,3 @@
-const url = `${API}blogs`;
-
 async function getData() {
     try {
         const response = await fetch("/api/blogs");
